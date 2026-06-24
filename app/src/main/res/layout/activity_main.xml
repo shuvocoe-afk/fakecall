@@ -1,0 +1,319 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:padding="16dp">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Fake Call Scheduler"
+            android:textSize="22sp"
+            android:textStyle="bold"
+            android:layout_marginBottom="16dp" />
+
+        <!-- SLOT 1 -->
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            android:background="#1F1F1F"
+            android:padding="12dp"
+            android:layout_marginBottom="12dp">
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Call 1"
+                android:textStyle="bold"
+                android:textColor="@color/white" />
+
+            <EditText
+                android:id="@+id/numberInput1"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:hint="Fake caller number"
+                android:inputType="phone" />
+
+            <EditText
+                android:id="@+id/delayInput1"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:hint="Delay (seconds)"
+                android:inputType="number" />
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal">
+
+                <Button
+                    android:id="@+id/scheduleBtn1"
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1"
+                    android:text="Schedule" />
+
+                <Button
+                    android:id="@+id/cancelBtn1"
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1"
+                    android:text="Cancel" />
+            </LinearLayout>
+
+            <TextView
+                android:id="@+id/statusText1"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textColor="@color/grey"
+                android:text="Not scheduled" />
+        </LinearLayout>
+
+        <!-- SLOT 2 -->
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            android:background="#1F1F1F"
+            android:padding="12dp"
+            android:layout_marginBottom="12dp">
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Call 2"
+                android:textStyle="bold"
+                android:textColor="@color/white" />
+
+            <EditText
+                android:id="@+id/numberInput2"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:hint="Fake caller number"
+                android:inputType="phone" />
+
+            <EditText
+                android:id="@+id/delayInput2"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:hint="Delay (seconds)"
+                android:inputType="number" />
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal">
+
+                <Button
+                    android:id="@+id/scheduleBtn2"
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1"
+                    android:text="Schedule" />
+
+                <Button
+                    android:id="@+id/cancelBtn2"
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1"
+                    android:text="Cancel" />
+            </LinearLayout>
+
+            <TextView
+                android:id="@+id/statusText2"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textColor="@color/grey"
+                android:text="Not scheduled" />
+        </LinearLayout>
+
+        <!-- SLOT 3 -->
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            android:background="#1F1F1F"
+            android:padding="12dp"
+            android:layout_marginBottom="12dp">
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Call 3"
+                android:textStyle="bold"
+                android:textColor="@color/white" />
+
+            <EditText
+                android:id="@+id/numberInput3"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:hint="Fake caller number"
+                android:inputType="phone" />
+
+            <EditText
+                android:id="@+id/delayInput3"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:hint="Delay (seconds)"
+                android:inputType="number" />
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal">
+
+                <Button
+                    android:id="@+id/scheduleBtn3"
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1"
+                    android:text="Schedule" />
+
+                <Button
+                    android:id="@+id/cancelBtn3"
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1"
+                    android:text="Cancel" />
+            </LinearLayout>
+
+            <TextView
+                android:id="@+id/statusText3"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textColor="@color/grey"
+                android:text="Not scheduled" />
+        </LinearLayout>
+
+        <!-- SLOT 4 -->
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            android:background="#1F1F1F"
+            android:padding="12dp"
+            android:layout_marginBottom="12dp">
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Call 4"
+                android:textStyle="bold"
+                android:textColor="@color/white" />
+
+            <EditText
+                android:id="@+id/numberInput4"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:hint="Fake caller number"
+                android:inputType="phone" />
+
+            <EditText
+                android:id="@+id/delayInput4"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:hint="Delay (seconds)"
+                android:inputType="number" />
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal">
+
+                <Button
+                    android:id="@+id/scheduleBtn4"
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1"
+                    android:text="Schedule" />
+
+                <Button
+                    android:id="@+id/cancelBtn4"
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1"
+                    android:text="Cancel" />
+            </LinearLayout>
+
+            <TextView
+                android:id="@+id/statusText4"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textColor="@color/grey"
+                android:text="Not scheduled" />
+        </LinearLayout>
+
+        <!-- SLOT 5 -->
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            android:background="#1F1F1F"
+            android:padding="12dp"
+            android:layout_marginBottom="12dp">
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Call 5"
+                android:textStyle="bold"
+                android:textColor="@color/white" />
+
+            <EditText
+                android:id="@+id/numberInput5"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:hint="Fake caller number"
+                android:inputType="phone" />
+
+            <EditText
+                android:id="@+id/delayInput5"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:hint="Delay (seconds)"
+                android:inputType="number" />
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal">
+
+                <Button
+                    android:id="@+id/scheduleBtn5"
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1"
+                    android:text="Schedule" />
+
+                <Button
+                    android:id="@+id/cancelBtn5"
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1"
+                    android:text="Cancel" />
+            </LinearLayout>
+
+            <TextView
+                android:id="@+id/statusText5"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textColor="@color/grey"
+                android:text="Not scheduled" />
+        </LinearLayout>
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="8dp"
+            android:textColor="@color/grey"
+            android:textSize="12sp"
+            android:text="Note: On first run, Android may ask you to allow 'Alarms &amp; reminders' permission. Please allow it so the fake call timer works exactly on time." />
+
+    </LinearLayout>
+</ScrollView>

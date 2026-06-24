@@ -1,0 +1,7 @@
+<resources>
+    <color name="call_green">#2ECC71</color>
+    <color name="call_red">#E74C3C</color>
+    <color name="dark_bg">#121212</color>
+    <color name="white">#FFFFFF</color>
+    <color name="grey">#888888</color>
+</resources>
